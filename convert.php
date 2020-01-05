@@ -38,6 +38,7 @@ tags= [$r->tags]
 draft = false
 author = '{$_author}'
 date= "$_c"
+slug= "$r->slug"
 +++
 
 $_t
