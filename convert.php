@@ -37,8 +37,8 @@ categories= [$r->category]
 tags= [$r->tags]
 draft = false
 author = '{$_author}'
-date= "$_c"
 slug= "$r->slug"
+date= "$_c"
 +++
 
 $_t
