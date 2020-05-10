@@ -36,7 +36,6 @@ title= "$r->title"
 categories= [$r->category]
 tags= [$r->tags]
 draft = false
-author = '{$_author}'
 slug= "$r->slug"
 date= "$_c"
 +++
