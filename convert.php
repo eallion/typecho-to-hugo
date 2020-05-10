@@ -31,14 +31,14 @@ if($res){
                 $_author = "<a href=\"{$r->authorUrl}\" rel=\"noopener\" target=\"_blank\">{$r->author}</a>";
             }
             $_tmp = <<<TMP
-+++
-title= "$r->title"
-categories= [$r->category]
-tags= [$r->tags]
-draft = false
-slug= "$r->slug"
-date= "$_c"
-+++
+---
+title: "$r->title"
+categories: [$r->category]
+tags: [$r->tags]
+draft: false
+slug: "$r->slug"
+date: "$_c"
+---
 
 $_t
 
